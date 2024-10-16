@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Books {
 
+    
     @Id
     @Column(name="id")
     long id;
@@ -20,4 +21,13 @@ public class Books {
     @Column(name="name")
     String name;
     
+    @Column(name="prices")
+    int prices;
+
+    @Column(name="quantity")
+    int quantity;
+
+
+
+
 }
