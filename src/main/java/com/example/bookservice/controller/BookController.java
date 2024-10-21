@@ -54,7 +54,7 @@ public class BookController {
     public void deleteBookById(@PathVariable("id") long id)
     {
         repositoryBook.deleteById(id);
-    }`
+    }
 
     @GetMapping("/book/{name}")
     public Map<String,Long> getBookByNameAndQuantity(@PathVariable String name) {
